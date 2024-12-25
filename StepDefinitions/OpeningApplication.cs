@@ -52,6 +52,7 @@ namespace SpecFlowProject1.StepDefinitions
             element = fluentwait.Until(driver =>driver.FindElement(By.CssSelector("[id='ap_email']")));
             element.Click();
             driver.Close();
+            //Swathi@02*09
         }
 
     }
